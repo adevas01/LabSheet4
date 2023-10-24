@@ -7,6 +7,14 @@ public class Door {
     this.name = name;
     this.state = state;
   }
+
+  public void setName(String name) {
+    System.out.println(name);
+  }
+
+  public void setState(String state) {
+    System.out.println(state);
+  }
   
   public String getName() {
     return name;
