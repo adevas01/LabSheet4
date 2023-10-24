@@ -1,16 +1,21 @@
-import java.util.Scanner;
+
 public class DoorTester {
-  public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
-    String name = scanner.next();
-    String state = scanner.next();
+  public static void main(String[] args) {  
 
-    Door door = new Door(name, state);
 
-    door.setName(name);
-    door.setState(state);
-    System.out.println(door.getName());
-    System.out.println(door.getState());
+    Door door1 = new Door("front door", "open");
+
+    //door.setName("front door");
+    //door.setState("open");
+    System.out.println("The " + door1.getName() + " is " + door1.getState());
+
+    Door door2 = new Door("side door", "closed");
+
+    //door.setName("front door");
+    //door.setState("open");
+    System.out.println("The " + door2.getName() + " is " + door2.getState());
+
+
 
   }
   

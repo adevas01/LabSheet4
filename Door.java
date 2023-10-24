@@ -6,14 +6,14 @@ public class Door {
   public Door(String name, String state) {
     this.name = name;
     this.state = state;
-  }
+  } 
 
   public void setName(String name) {
-    System.out.println(name);
+    this.name = name;
   }
 
   public void setState(String state) {
-    System.out.println(state);
+    this.state = state;
   }
   
   public String getName() {
@@ -23,5 +23,4 @@ public class Door {
   public String getState() {
     return state;
   }
-
 }
