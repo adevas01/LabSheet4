@@ -8,12 +8,12 @@ public class Door {
     this.state = state;
   } 
 
-  public void setName(String name) {
-    this.name = name;
+  public void setName(String newName) {
+    this.name = newName;
   }
 
-  public void setState(String state) {
-    this.state = state;
+  public void setState(String newState) {
+    this.state = newState;
   }
   
   public String getName() {
